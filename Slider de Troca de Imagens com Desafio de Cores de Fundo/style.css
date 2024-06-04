@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    transition: background-color 0.5s;
+}
+
+.slider {
+    display: flex; 
+    align-items: center;  
+}
+
+#imagemSlider1 {
+    max-width: 600px;  
+    max-height: 400px; 
+    margin: 0 20px;
+    border: 5px dashed #ffffff;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #444;
+}
